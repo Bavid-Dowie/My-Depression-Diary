@@ -1,0 +1,13 @@
+.welcome-title {
+  color: $title-color;
+  font-size: 8.5vw;
+  margin-right: 40vw;
+  margin-top: 0;
+}
+
+@media (max-width: 414px) {
+  .welcome-title {
+    font-size: 13vw;
+    margin: 10vh 0 -2vh 0;
+  }
+}
