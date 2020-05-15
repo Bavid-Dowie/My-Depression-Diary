@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Welcome from './components/Welcome';
+import Post from './components/Post';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -11,10 +11,10 @@ const routing = (
     <div>
       <ul>
         <li>
-          <Link to='/'>Welcome</Link>
+          <Link to='/'>Post</Link>
         </li>
       </ul>
-      <Route path='/' component={Welcome} />
+      <Route path='/' component={Post} />
     </div>
   </Router>
 )

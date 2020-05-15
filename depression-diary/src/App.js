@@ -1,28 +1,21 @@
 import React from 'react'
 import CubeGrid from '@bit/akameco.styled-spinkit.cube-grid'
-import Welcome from './components/Welcome'
+import Post from './components/Post'
 import './styles/style.css'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome />
+        <h1 className='post-title'>Dear Journal</h1>
+        <Post />
         <CubeGrid
           color="black"
           size={110}
         />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          More stuff to go here
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   )
